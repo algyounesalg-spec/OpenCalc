@@ -63,9 +63,11 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidslidinguppanel)
-    implementation(libs.androidx.preference.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.gson)
+
+    // Implant dependencies
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
